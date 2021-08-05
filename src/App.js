@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+import Editor from "./components/editor/Editor";
+import Document from "./components/document/Document";
+import Autorez from "./components/autorez/Autorez";
+import Navigation from "./components/navigation/Navigation";
+import "./App.css";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const { history } = this.props;
+    
+
+    return (
+      <Switch>
+        <Route history={history} exact path="/navigation" component={Navigation} />
+        <Route history={history} exact path="/editor" component={Editor} />
+        <Route history={history} exact path="/autorez" component={Autorez} />
+        <Route history={history} exact path="/document" component={Document} />
+        <Redirect from="/" to="/navigation" />
+     {/*    <Route component={Errorr}/> */}
+      </Switch>
+    );
+  }
 }
 
 export default App;

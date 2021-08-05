@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+#textarea {
+  background-color: white;
+  box-shadow: 0 0 10px slategray;
+  min-height: 35rem;
+  max-height: 38rem;
+  width: 88.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  padding: 1.5rem;
+  font-size: 20pt;
+  overflow-y: auto ;
+}
+#textarea:focus {
+  outline-width: 0;
+}
+ol,
+ul {
+  list-style-position: inside;
+}

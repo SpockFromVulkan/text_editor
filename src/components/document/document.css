@@ -1,0 +1,94 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5 !important;
+  color: black !important;
+}
+.all-doc {
+  margin-left:10rem;
+  margin-right:10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.doc{
+  display: flex;
+  flex-direction: column;
+  background-color: #bbbbbb !important;
+  color: black;
+  border-radius: 0.625rem;
+  width: 10rem;
+  height: 10rem;
+  margin-top: 0.9rem;
+}
+.refr{
+  border: 1px solid #333;
+  background: #e5e5e5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
+  width: 6rem;
+  margin-left:1rem;
+  margin-top:1rem
+}
+.creat{
+  border: 1px solid #333;
+  background: #e5e5e5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
+  width: 6rem;
+}
+.leave{
+  border: 1px solid #333;
+  background: #e5e5e5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
+  width: 6rem;
+}
+.titles{
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.delete {
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid #333;
+  background: #e5e5e5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5rem;
+  font-weight: 400;
+  width: 5rem;
+}
+.rename {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  border: 1px solid #333;
+  background: #e5e5e5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding-left: 0.5rem;
+  font-weight: 400;
+  width: 8rem;
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5 !important;
+  overflow: hidden;
+}
+.forms {
+  width: 50rem;
+  height: 10rem;
+}
+.forms-r {
+  width: 50rem;
+  height: 10rem;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11rem;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  transform: translate(-5%, 0);
+}
+.h11 {
+  text-align: center;
+}
